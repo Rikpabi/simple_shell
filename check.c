@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <fcntl.h>
 
-int main(void)
+void()
 {
 	int fd;
 
@@ -10,7 +10,7 @@ int main(void)
 
 	char msg[50] = "hello world"; /*strings in file*/
 
-	fd = open("chk.txt", 0_RDWR | 0_CREAT);  /*created with rdwr access*/
+	fd = open("chk.txt", 0_RDWR | 0_CREAT); /*created with rdwr access*/
 
 	printf("fd = %d", fd);   /*prints file descriptor*/
 
